@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2023-09-27T03:57:50.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="jAblFpUcmxNnZpbmiyAr" version="21.6.8" type="device">
+  <diagram name="第 1 页" id="JPRXCqS387LlQBntc_6v">
+    <mxGraphModel dx="1177" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="70" width="370" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-1" value="业务POD" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ko8muSTQ6zl2erQ20SfS-3" target="Ko8muSTQ6zl2erQ20SfS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-3" value="Mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="850" y="180" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ko8muSTQ6zl2erQ20SfS-8" target="Ko8muSTQ6zl2erQ20SfS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-8" value="定时任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ko8muSTQ6zl2erQ20SfS-12" target="Ko8muSTQ6zl2erQ20SfS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-9" value="从Nacos获取高峰时期配置，如果在高峰期，不做任何处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="90" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ko8muSTQ6zl2erQ20SfS-11" target="Ko8muSTQ6zl2erQ20SfS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-11" value="Nacos" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="850" y="90" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ko8muSTQ6zl2erQ20SfS-13" target="Ko8muSTQ6zl2erQ20SfS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-13" value="直接计算出需要删除ID逐渐，根据delete主键来删除，不要使用别的条件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="465" y="270" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ko8muSTQ6zl2erQ20SfS-16" target="Ko8muSTQ6zl2erQ20SfS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-16" value="直接计算出需要删除ID逐渐，根据delete主键来删除，不要使用别的条件，limit nacos可配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="465" y="360" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ko8muSTQ6zl2erQ20SfS-9" target="Ko8muSTQ6zl2erQ20SfS-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="160" as="sourcePoint" />
+            <mxPoint x="598" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-12" value="获取唯一锁（要增加一个单独的表，做所竞争用）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="180" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-22" value="直接计算出需要删除ID逐渐，根据delete主键来删除，不要使用别的条件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="465" y="460" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ko8muSTQ6zl2erQ20SfS-23" target="Ko8muSTQ6zl2erQ20SfS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ko8muSTQ6zl2erQ20SfS-23" value="Nacos" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="850" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,173 @@
+<mxfile host="Electron" modified="2023-10-06T12:09:42.221Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="V6sn_cQ4hUr0FqYxXA6Q" version="21.6.8" type="device">
+  <diagram name="第 1 页" id="eTkHbT3sOmMclKvs1mTg">
+    <mxGraphModel dx="3645" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HossiTDJlPPyGLx1oZxy-1" value="AI Engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="62.67" y="120" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;fontSize=16;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="532.6700000000001" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-3" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="362.67" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;fontSize=16;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-7" target="HossiTDJlPPyGLx1oZxy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;fontSize=16;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-7" target="HossiTDJlPPyGLx1oZxy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;fontSize=16;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-7" target="HossiTDJlPPyGLx1oZxy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Data&amp;nbsp;&lt;span style=&quot;font-family: arial, sans-serif; text-align: left; font-size: 16px;&quot;&gt;transform&lt;/span&gt;&amp;nbsp;Engine&lt;br style=&quot;font-size: 16px;&quot;&gt;（ETL）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="67.67" y="275" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;fontSize=16;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-9" target="HossiTDJlPPyGLx1oZxy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-9" value="Hudi Delta Stream" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="524" y="300" width="147.33" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#FFFFFF;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-11" target="HossiTDJlPPyGLx1oZxy-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-11" value="ElasticSearch&lt;br style=&quot;font-size: 16px;&quot;&gt;（Text Search/GIS）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="102.67000000000003" y="440" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-13" target="HossiTDJlPPyGLx1oZxy-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-13" value="Flink&amp;nbsp; Compute Engine" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="522.67" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-15" target="HossiTDJlPPyGLx1oZxy-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-15" value="DataLake&lt;br style=&quot;font-size: 16px&quot;&gt;（Apache Hudi）&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;verdana&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left&quot;&gt;DWD（&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;verdana&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left&quot;&gt;data warehouse details）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="472.34000000000003" y="400" width="250.66" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="529.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-17" value="DataLake&lt;br style=&quot;font-size: 16px&quot;&gt;（Apache Hudi）&lt;br&gt;DWS&lt;font style=&quot;font-size: 14px&quot;&gt;（&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;verdana&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;data warehouse service&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;verdana&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;）&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="700" y="500" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;fontSize=16;" edge="1" parent="1" target="HossiTDJlPPyGLx1oZxy-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-21" target="HossiTDJlPPyGLx1oZxy-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="995" y="480" />
+              <mxPoint x="808" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.466;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-21" target="HossiTDJlPPyGLx1oZxy-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1189.9500000000003" y="510.02" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="995" y="480" />
+              <mxPoint x="1202" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-21" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Sql Query&amp;nbsp; Engine（Apache kyuubi）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="389.65" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="764.6500000000001" as="sourcePoint" />
+            <mxPoint x="40" y="74.64999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-23" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;verdana&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;ODS（Operation Data Store）&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="555" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;exitX=0.958;exitY=0.429;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-29" target="HossiTDJlPPyGLx1oZxy-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-402" y="309.65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-26" target="HossiTDJlPPyGLx1oZxy-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-26" value="&lt;span style=&quot;font-size: 14px ; text-indent: 28px&quot;&gt;Data&amp;nbsp; E&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; text-indent: 28px&quot;&gt;xtract Service&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; text-indent: 28px&quot;&gt;&lt;br&gt;(Extract)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="-222" y="269.65" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-222" y="309.6500000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-261" y="242.65" />
+              <mxPoint x="-261" y="309.65" />
+              <mxPoint x="-222" y="309.65" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-28" value="Database" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Instance_Pools.svg;" vertex="1" parent="1">
+          <mxGeometry x="-355.5" y="215" width="55.5" height="54.65" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-29" value="Word/PDF/Text" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Learn.svg;" vertex="1" parent="1">
+          <mxGeometry x="-353" y="299.65" width="48" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-30" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/SSD.svg;" vertex="1" parent="1">
+          <mxGeometry x="-352" y="402.38" width="52" height="47.27" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-31" value="Image/Audio/Video" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="449.65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HossiTDJlPPyGLx1oZxy-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-295.5" y="415.02931034482754" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-33" value="Distributed Storage Service" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Storage_Sync_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-138" y="458.65" width="72" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-34" value="&lt;span style=&quot;text-align: left&quot;&gt;Archive&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-162" y="419.65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.02;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-37" target="HossiTDJlPPyGLx1oZxy-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;" edge="1" parent="1" source="HossiTDJlPPyGLx1oZxy-37" target="HossiTDJlPPyGLx1oZxy-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-37" value="Flink&amp;nbsp; Compute Engine" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="940" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-38" value="DataLake&lt;br&gt;（Apache Hudi）&lt;br&gt;ADS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="500" width="176.67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-39" value="Alert Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="940" y="593" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-40" value="Dashboard" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;dashed=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="800" y="353.38" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-41" value="OpenAPI" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;dashed=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="930" y="354.65" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-42" value="Custom Sql Client" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;dashed=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="354.65" width="130" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-43" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Data&lt;font face=&quot;arial, sans-serif&quot;&gt;&amp;nbsp;Query Service&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;（GIS）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;fontSize=16;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="67.67" y="555" width="270" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="HossiTDJlPPyGLx1oZxy-44" value="GIS Dashboard" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;dashed=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="67.67" y="606" width="270" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
